@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/hackscreen"
+    tools:context=".Hack2Activity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-3dp"
+        android:fontFamily="@font/lato_black"
+        android:text="Food and Drinks"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+
+    <TextView
+        android:id="@+id/text_view_data"
+        android:layout_width="245dp"
+        android:layout_height="311dp"
+        android:fontFamily="@font/lato_bold_italic"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+
+    <ImageView
+        android:id="@+id/backbtn"
+        android:layout_width="87dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="140dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/backward" />
+
+    <ImageView
+        android:id="@+id/forwardbtn"
+        android:layout_width="87dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="140dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.718"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/forward" />
+
+    <ImageView
+        android:id="@+id/sendbackbtn"
+        android:layout_width="58dp"
+        android:layout_height="56dp"
+        android:onClick="goHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        app:srcCompat="@drawable/backsendicon" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

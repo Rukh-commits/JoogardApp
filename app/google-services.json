@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "873715015175",
+    "project_id": "joogard-20a54",
+    "storage_bucket": "joogard-20a54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873715015175:android:20a38db74ffb3f898414a2",
+        "android_client_info": {
+          "package_name": "com.example.joogard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873715015175-h7nncud83eqt2a1d8ahgfqokke5ubtdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwXKmJJcwpi6ycDDVE-Kzbg_N_yDALgKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873715015175-h7nncud83eqt2a1d8ahgfqokke5ubtdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
